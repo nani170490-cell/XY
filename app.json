@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "XY",
+    "slug": "xy-social-app",
+    "scheme": "xy",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "plugins": [
+      "expo-router",
+      ["expo-image-picker", {
+        "photosPermission": "XY needs access to your photos so you can choose media to share.",
+        "cameraPermission": "XY needs camera access so you can create content."
+      }]
+    ],
+    "ios": { "supportsTablet": true, "bundleIdentifier": "com.example.xy" },
+    "android": { "package": "com.example.xy" }
+  }
+}
